@@ -16,11 +16,15 @@ This module contains the following command line methods :
  - _python graph.py --SP [start_vetex] [end_vertex]_
  
   shows the shortest path between start_vertex and end_vertex
- 
+  
+  Example: python graph.py --SP A H
+   
  -  _python graph.py --AP [start_vetex] [end_vertex]_
  
   shows a list of all possible paths between start_vertex and 
   end_vertex
+  
+  Example: python graph.py --AP A H
   
 #### License
     MIT
